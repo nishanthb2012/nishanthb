@@ -63,5 +63,50 @@ a:active {
         <br>
         <a href="#7" class="review" onclick="review()"> Review 
         </a>
+        <script>
+            function home() {
+    document.getElementById("title").innerHTML = "<span style='color:black'> Regions of Europe </span>"
+   
+    document.getElementById("para").innerHTML = "Today, we will learn about the different regions of Europe!"
+    document.getElementById("photo").src = "https://www.familysearch.org/en/wiki/img_auth.php/thumb/4/4a/European_continent_2.png/700px-European_continent_2.png"
+}
+function westernEurope() {
+    document.getElementById("title").innerHTML = "<span style='color:gold'> Western Europe </span>"
+    document.getElementById("para").innerHTML = "<span style='color:gold'> The concept of the West appeared in Europe in juxtaposition to the East and originally applied to the ancient Mediterranean world, the Roman Empire (both Western and Eastern), and medieval Christendom. Beginning with the Renaissance and the Age of Discovery, roughly from the 15th century, the concept of Europe as the West slowly became distinguished from and eventually replaced the dominant use of Christendom as the preferred endonym within the region. By the Age of Enlightenment and the Industrial Revolution, the concepts of Eastern Europe and Western Europe were more regularly used. The distinctiveness of Western Europe became most apparent during the Cold War, when Europe was divided for 40 years by the Iron Curtain into the Western Bloc and Eastern Bloc, each characterised by distinct political and economical systems. </span>"
+    document.getElementById("photo").src = "https://as1.ftcdn.net/v2/jpg/05/51/37/68/1000_F_551376839_zublyIKONNVBDuHiACfT49EpC7xbXLZG.jpg"
+}
+function easternEurope() {
+    document.getElementById("title").innerHTML = "<span style='color:orange'> Eastern Europe </span>"
+    document.getElementById("para").innerHTML = "<span style='color:orange'> Eastern Europe is a subregion of the European continent. As a largely ambiguous term, it has a wide range of geopolitical, geographical, ethnic, cultural, and socio-economic connotations. Its eastern boundary is marked by the Ural Mountains, whilst its western boundary is defined in various ways. Most definitions include the countries of Belarus, Russia, Ukraine, Moldova and Romania while less restrictive definitions may also include some or all of the Balkans, the Baltic states, the Caucasus and the Visegrád group. The region represents a significant part of European culture; the main socio-cultural characteristics of Eastern Europe have historically been defined by the traditions of the Slavs and Greeks, as well as by the influence of Eastern Christianity as it developed through the Eastern Roman Empire and the Ottoman Empire. Another definition was created by the Cold War, as Europe was ideologically divided by the Iron Curtain, with Eastern Europe being synonymous with communist states constituting the Eastern Bloc under the influence of the Soviet Union. </span>"
+    document.getElementById("photo").src = "https://s3.amazonaws.com/libapps/accounts/13379/images/eeuropemap.gif"
+}
+function centralEurope() {
+    document.getElementById("title").innerHTML = "<span style='color:red'> Central Europe </span>"
+    document.getElementById("para").innerHTML = "<span style='color:red'> Central Europe is a geographical region of Europe between Eastern, Southern, Western and Northern Europe. Central Europe is known for its cultural diversity; however, countries in this region also share historical and cultural similarities. Whilst the region is variously defined, it often includes Austria, Croatia, Czech Republic, Germany, Hungary, Lithuania, Poland, Slovakia, Slovenia and Switzerland. From the early 16th century until the early 18th century, parts of present-day Croatia and Hungary were under Ottoman rule. During the 17th century, the empire also occupied southern parts of present-day Slovakia. During the Early Modern period, the territories of Poland and Lithuania were part of the Polish-Lithuanian Commonwealth. Meanwhile, the Archduchy of Austria, the Kingdom of Bohemia (Czechia), the Duchy of Carniola (part of present-day Slovenia), the various German Principalities and the Old Swiss Confederacy were within the Holy Roman Empire. By the end of the 18th century, the Habsburg monarchy, a prominent power within the empire, came to reign over the territories of Austria, Bosnia and Herzegovina, Croatia, Czechia, Hungary, Slovakia and Slovenia, alongside parts of Serbia, Germany, Italy, Poland and Switzerland. </span>"
+    document.getElementById("photo").src = "https://www.worldatlas.com/r/w1200/upload/79/0b/26/european-islands.png"
+}
+function northernEurope() {
+    document.getElementById("title").innerHTML = "<span style='color:blue'> Northern Europe </span>"
+    document.getElementById("para").innerHTML = "<span style='color:blue'> The northern region of Europe has several definitions. A restrictive definition may describe Northern Europe as being roughly north of the southern coast of the Baltic Sea, which is about 54°N, or may be based on other geographical factors such as climate and ecology. Northern Europe might be defined roughly to include some or all of the following areas: British Isles, Fennoscandia, the peninsula of Jutland, the Baltic plain that lies to the east, and the many islands that lie offshore from mainland Northern Europe and the main European continent. In some cases, Greenland is also included, although it is only politically European, comprising part of the Kingdom of Denmark, and not considered to be geographically in Europe. </span>"
+    document.getElementById("photo").src = "https://www.intrepiddmc.com/sites/default/files/inline-images/northern-europe-map.png"
+}
+function southernEurope() {
+    document.getElementById("title").innerHTML = "<span style='color:green'> Southern Europe </span>"
+    document.getElementById("para").innerHTML = "<span style='color:green'> Southern Europe is the southern region of Europe. It is also known as Mediterranean Europe, as its geography is marked by the Mediterranean Sea. Definitions of southern Europe include some or all of these countries and regions: Albania, Andorra, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Gibraltar, Greece, Italy, Kosovo, Malta, Monaco, Montenegro, North Macedonia, Portugal, San Marino, Serbia, Slovenia, southern France, Spain, Turkey (East Thrace), and Vatican City. </span>"
+    document.getElementById("photo").src = "https://www.mapsofworld.com/europe/country-groupings/map-of-southern-europe.gif"
+}
+function review() {
+    let a = prompt("How was your experience?")
+    if (a == "good") {
+        alert("Great! Hope to see you soon! :)")
+    } else if (a == "great") {
+        alert("Great! Hope to see you soon! :)")
+    } else if (a == "amazing") {
+        alert("Great! Hope to see you soon! :)")
+    } else {
+        alert("Aww... Well, we hope the next time you visit us, your experience will be better! :)")
+    }
+}
+        </script>
     </body>
 </html>
